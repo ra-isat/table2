@@ -1,0 +1,27 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+table {
+    margin: 100px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+}
+th, td {
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+td:hover, th:hover {
+    color: lightslategray;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
