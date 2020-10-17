@@ -23,5 +23,5 @@ tr:nth-child(even) {
     background-color: lightblue;
 }
 tr:nth-child(odd) {
-    background-color: lightpink;
+    background-color: rgb(240, 0, 36);
 }
